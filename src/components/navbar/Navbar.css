@@ -1,0 +1,57 @@
+.nav {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 1.7rem;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .nav-logo {
+    color: white;
+    margin-left: 3.6rem;
+    position: relative;
+  }
+  
+  .nav-logo h2 {
+    margin: 0;
+  }
+  
+  .options {
+    position: relative;
+    margin-right: 3.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .options a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 100;
+    white-space: nowrap; /* Prevent the text from wrapping */
+    width: auto; 
+    display: inline-block; /* Make the links inline-block to control their width */
+    min-width: 3rem;
+  }
+
+  .options a:hover {
+    border-bottom: 2px solid white; /* Add a white border-bottom on hover */
+    color: white; 
+  }
+  
+  .nav::after {
+    content: "";
+    display: block;
+    width: 88.8%;
+    height: 1px;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 5.1%; /* Center the line by moving it from the left */
+  }
+  
