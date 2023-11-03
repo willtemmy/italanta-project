@@ -1,8 +1,11 @@
-.invest {
+body {
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-}
+    width: 100vw; 
+    background-color: white;
+  }
+  
 
 .landing {
     width: 100vw;
@@ -27,12 +30,10 @@
     background-size: cover;
     background-position: center;
     filter: brightness(0.7); 
-    z-index: -1; 
   }
 
   .landing-content {
     position: relative;
-    z-index: 1; 
   }
 
   .subheading {
@@ -49,4 +50,43 @@
     font-weight: 100;
     /* font-family: "Jeko Medium"; */
   }
+
+  .hero {
+    color: black;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.04);
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+  }
   
+
+  .title{
+    font-size: 4.7rem;
+    font-weight: 400;
+    margin: 0 0 0 7.7rem;
+    transform: scaleX(1.053);
+    padding-top: 5.2rem;
+  }
+  
+  .mot{
+    font-size: 2rem;
+    width: 60%;
+    margin: 1.3rem 0 6rem 5.7rem;
+  }
+
+  .city{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .city img {
+    width: 88%; 
+  }
+
+  .landing,
+.hero {
+  margin: 0;
+  padding: 0;
+}
