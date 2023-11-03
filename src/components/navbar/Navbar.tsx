@@ -16,7 +16,6 @@ const Navbar =() => {
         <a href="/">Careers</a>
         <a href="/">Contact</a>
       </div>
-      {/* <div class="menu"><i class="fa-solid fa-bars"></i></div> */}
   </div>
   )
 }

@@ -1,0 +1,52 @@
+.invest {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.landing {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .landing::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../src/assets/investBG.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.7); 
+    z-index: -1; 
+  }
+
+  .landing-content {
+    position: relative;
+    z-index: 1; 
+  }
+
+  .subheading {
+    color: white;
+    font-size: 1.5rem;
+    margin: 16rem 0 1rem 4.8rem;
+    font-weight: 300;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 4.2rem;
+    margin: 0 0 0 4.8rem;
+    font-weight: 100;
+    /* font-family: "Jeko Medium"; */
+  }
+  
